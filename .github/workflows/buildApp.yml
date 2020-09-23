@@ -1,7 +1,7 @@
 name: Build Android Apk
 on:
   pull_request:
-    branches: appBranch
+    branches: master
 
 jobs:
   build:
