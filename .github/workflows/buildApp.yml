@@ -41,7 +41,7 @@ jobs:
         run: ./gradlew bundle
         
       - name: Upload apk
-        uses: actions/upload-artificats@v1
+        uses: actions/upload-artificat@v1
         with: 
           name: app-dev
           path: platform/android/app/build/outputs/apk/debug/app-debug.apk
