@@ -1,7 +1,7 @@
 name: Build Android Apk
 on: 
   push:
-    branches: master
+    branches: appBranch
 
 jobs:
   build:
@@ -40,8 +40,8 @@ jobs:
         working-directory: ./platforms/android
         run: ./gradlew bundle
         
-      - name: Upload apk
-        uses: actions/upload-artificat@v1
-        with: 
+      - name: Upload dev APK
+        uses: actions/upload-artifact@v1
+        with:
           name: app-dev
-          path: platform/android/app/build/outputs/apk/debug/app-debug.apk
+          path: platforms/android/app/build/outputs/apk/debug/app-debug.apk
