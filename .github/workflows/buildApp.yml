@@ -28,6 +28,7 @@ jobs:
         run: npm install -g @ionic/cli
       
       - name: Install app dependencies
+        working-directory: ./app
         run: npm install
       
       - name: Add Android Platform
