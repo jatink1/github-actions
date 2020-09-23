@@ -29,5 +29,4 @@ export class SingupPage {
     this.navCtrl.pop();
   };
 
-
 }
