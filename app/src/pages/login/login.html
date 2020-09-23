@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>login</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+
+    <ion-item>
+      <ion-label floating>Email</ion-label>
+      <ion-input type="email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Password</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+
+  </ion-list>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <button ion-button (click)="goToHome()">Login</button>
+      </ion-col>
+
+      <ion-col>
+        <button ion-button (click)="goToSignup()">Signup</button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
