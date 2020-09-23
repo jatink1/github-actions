@@ -27,6 +27,7 @@ export class SingupPage {
 
   login(){
     this.navCtrl.pop();
-  }
+  };
+  
 
 }
