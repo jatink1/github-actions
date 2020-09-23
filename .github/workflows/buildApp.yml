@@ -26,6 +26,10 @@ jobs:
       
       - name: Install Ionic 
         run: npm install -g @ionic/cli
+        
+      - name: Show current working directory and list contents
+        working-directory: ./app
+        run: pwd && ls
       
       - name: Install app dependencies
         working-directory: ./app
