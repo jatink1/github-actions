@@ -1,4 +1,4 @@
-Github actions are a faster and better way to test and automate tasks.
+Github actions are easy way to test or deploy or build apks.
 
 It lets us build,test and deploy code right from github. You can also assign code reviews, manage branches, and triage issues the way you want with actions.
 Whether you want to build a container, deploy a web service, or automate welcoming a new user to your open-source project — there’s an automated action for that.
